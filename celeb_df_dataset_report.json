@@ -1,0 +1,22 @@
+{
+  "dataset": "Celeb-DF Preprocessed",
+  "source": "kaggle.com/datasets/amanrawat001/celeb-df-preprocessed",
+  "downloaded_at": "/Users/ricardofernandes/Code/DeepLearningComputerVision",
+  "splits": {
+    "train": {
+      "real": 10901,
+      "fake": 34865,
+      "total": 45766
+    },
+    "val": {
+      "real": 2335,
+      "fake": 7471,
+      "total": 9806
+    },
+    "test": {
+      "real": 2337,
+      "fake": 7472,
+      "total": 9809
+    }
+  }
+}
