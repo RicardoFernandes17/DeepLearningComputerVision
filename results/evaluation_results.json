@@ -1,0 +1,10 @@
+{
+  "test_accuracy": 0.6,
+  "test_precision": 0.6278409090909092,
+  "test_recall": 0.6,
+  "test_f1_score": 0.5769682726204466,
+  "test_auc_roc": 0.6105055555555555,
+  "best_val_accuracy": 56.666666666666664,
+  "total_epochs": 5,
+  "predictions": [
+    

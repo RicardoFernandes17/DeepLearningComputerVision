@@ -1,0 +1,37 @@
+2025-07-02 18:58:07,959 - INFO - ============================================================
+2025-07-02 18:58:07,959 - INFO - ENHANCED DEEPFAKE DETECTION TRAINING PIPELINE
+2025-07-02 18:58:07,959 - INFO - ============================================================
+2025-07-02 18:58:07,959 - INFO - PyTorch version: 2.7.1
+2025-07-02 18:58:07,959 - INFO - CUDA available: False
+2025-07-02 18:58:07,959 - INFO - Trainer initialized on device: cpu
+2025-07-02 18:58:07,959 - INFO - Starting advanced training pipeline
+2025-07-02 18:58:07,992 - INFO - Model created with 2,492,866 total parameters (2,492,866 trainable)
+2025-07-02 18:58:25,787 - INFO - Data loaders created: Train=93, Val=19, Test=19 batches
+2025-07-02 19:03:01,296 - INFO - Epoch  1/5 | Train: Loss=0.6933, Acc=52.55% | Val: Loss=0.6897, Acc=53.50% | LR=0.001000 | Time=275.5s
+2025-07-02 19:08:57,024 - INFO - Epoch  2/5 | Train: Loss=0.6929, Acc=50.94% | Val: Loss=0.6891, Acc=55.50% | LR=0.001000 | Time=355.7s
+2025-07-02 19:15:10,641 - INFO - Epoch  3/5 | Train: Loss=0.6913, Acc=53.19% | Val: Loss=0.6862, Acc=54.50% | LR=0.001000 | Time=373.6s
+2025-07-02 19:21:36,469 - INFO - Epoch  4/5 | Train: Loss=0.6869, Acc=54.20% | Val: Loss=0.6830, Acc=56.67% | LR=0.001000 | Time=385.8s
+2025-07-02 19:28:12,964 - INFO - Epoch  5/5 | Train: Loss=0.6864, Acc=54.03% | Val: Loss=0.6908, Acc=56.00% | LR=0.001000 | Time=396.5s
+2025-07-02 19:28:12,966 - INFO - Training completed in 1787.2 seconds
+2025-07-02 19:28:12,967 - INFO - Starting final evaluation...
+2025-07-02 19:28:48,659 - INFO - ============================================================
+2025-07-02 19:28:48,659 - INFO - FINAL EVALUATION RESULTS
+2025-07-02 19:28:48,659 - INFO - ============================================================
+2025-07-02 19:28:48,659 - INFO - Test Accuracy:  0.6000 (60.00%)
+2025-07-02 19:28:48,659 - INFO - Precision:      0.6278
+2025-07-02 19:28:48,659 - INFO - Recall:         0.6000
+2025-07-02 19:28:48,659 - INFO - F1-Score:       0.5770
+2025-07-02 19:28:48,659 - INFO - AUC-ROC:        0.6105
+2025-07-02 19:28:48,660 - INFO - 
+Detailed Classification Report:
+2025-07-02 19:28:48,664 - INFO - 
+              precision    recall  f1-score   support
+
+        Real       0.57      0.83      0.68       300
+        Fake       0.69      0.37      0.48       300
+
+    accuracy                           0.60       600
+   macro avg       0.63      0.60      0.58       600
+weighted avg       0.63      0.60      0.58       600
+
+2025-07-02 19:28:48,665 - ERROR - Training failed with error: Object of type int64 is not JSON serializable

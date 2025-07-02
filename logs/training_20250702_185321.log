@@ -1,0 +1,11 @@
+2025-07-02 18:53:21,857 - INFO - ============================================================
+2025-07-02 18:53:21,857 - INFO - ENHANCED DEEPFAKE DETECTION TRAINING PIPELINE
+2025-07-02 18:53:21,857 - INFO - ============================================================
+2025-07-02 18:53:21,857 - INFO - PyTorch version: 2.7.1
+2025-07-02 18:53:21,857 - INFO - CUDA available: False
+2025-07-02 18:53:21,857 - INFO - Trainer initialized on device: cpu
+2025-07-02 18:53:21,857 - INFO - Starting advanced training pipeline
+2025-07-02 18:53:21,894 - INFO - Model created with 2,492,866 total parameters (2,492,866 trainable)
+2025-07-02 18:53:38,001 - INFO - Data loaders created: Train=93, Val=19, Test=19 batches
+2025-07-02 18:55:25,600 - INFO - Epoch  1/5 | Train: Loss=0.6879, Acc=52.99% | Val: Loss=0.7010, Acc=50.00% | LR=0.001000 | Time=107.6s
+2025-07-02 18:56:36,332 - INFO - Training interrupted by user
