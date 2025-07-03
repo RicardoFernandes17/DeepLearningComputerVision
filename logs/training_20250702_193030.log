@@ -7,3 +7,31 @@
 2025-07-02 19:30:30,179 - INFO - Starting advanced training pipeline
 2025-07-02 19:30:30,215 - INFO - Model created with 2,492,866 total parameters (2,492,866 trainable)
 2025-07-02 19:30:48,534 - INFO - Data loaders created: Train=93, Val=19, Test=19 batches
+2025-07-02 19:32:40,278 - INFO - Epoch  1/5 | Train: Loss=0.6935, Acc=51.01% | Val: Loss=0.6869, Acc=55.00% | LR=0.001000 | Time=111.7s
+2025-07-02 19:34:28,701 - INFO - Epoch  2/5 | Train: Loss=0.6895, Acc=55.58% | Val: Loss=0.6892, Acc=52.67% | LR=0.001000 | Time=108.4s
+2025-07-02 19:39:51,009 - INFO - Epoch  3/5 | Train: Loss=0.6901, Acc=54.47% | Val: Loss=0.7006, Acc=54.67% | LR=0.001000 | Time=322.3s
+2025-07-02 19:41:41,643 - INFO - Epoch  4/5 | Train: Loss=0.6880, Acc=55.65% | Val: Loss=0.6843, Acc=56.33% | LR=0.001000 | Time=110.6s
+2025-07-02 19:43:30,474 - INFO - Epoch  5/5 | Train: Loss=0.6851, Acc=56.05% | Val: Loss=0.6824, Acc=56.00% | LR=0.001000 | Time=108.8s
+2025-07-02 19:43:30,476 - INFO - Training completed in 761.9 seconds
+2025-07-02 19:43:30,477 - INFO - Starting final evaluation...
+2025-07-02 19:43:57,266 - INFO - ============================================================
+2025-07-02 19:43:57,266 - INFO - FINAL EVALUATION RESULTS
+2025-07-02 19:43:57,266 - INFO - ============================================================
+2025-07-02 19:43:57,266 - INFO - Test Accuracy:  0.5517 (55.17%)
+2025-07-02 19:43:57,266 - INFO - Precision:      0.5621
+2025-07-02 19:43:57,266 - INFO - Recall:         0.5517
+2025-07-02 19:43:57,266 - INFO - F1-Score:       0.5320
+2025-07-02 19:43:57,266 - INFO - AUC-ROC:        0.6087
+2025-07-02 19:43:57,266 - INFO - 
+Detailed Classification Report:
+2025-07-02 19:43:57,271 - INFO - 
+              precision    recall  f1-score   support
+
+        Real       0.59      0.35      0.44       300
+        Fake       0.54      0.76      0.63       300
+
+    accuracy                           0.55       600
+   macro avg       0.56      0.55      0.53       600
+weighted avg       0.56      0.55      0.53       600
+
+2025-07-02 19:43:57,271 - ERROR - Training failed with error: Object of type int64 is not JSON serializable
